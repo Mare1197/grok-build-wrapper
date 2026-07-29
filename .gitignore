@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+.DS_Store
+server/data/settings.json
+server/data/gallery/*
+!server/data/gallery/.gitkeep
+client/dist/
+server/dist/
+*.tsbuildinfo
+.vite/

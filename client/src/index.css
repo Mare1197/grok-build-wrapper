@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 600px at 10% -10%, rgba(109, 124, 255, 0.12), transparent),
+    radial-gradient(900px 500px at 100% 0%, rgba(56, 189, 248, 0.06), transparent), #07080c;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #252b3b transparent;
+}
+
+@layer components {
+  .panel {
+    @apply rounded-xl border border-white/10 bg-ink-900/80 backdrop-blur;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition
+      disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-primary {
+    @apply btn bg-accent text-white hover:bg-accent-soft shadow-glow;
+  }
+  .btn-ghost {
+    @apply btn border border-white/10 bg-white/5 hover:bg-white/10;
+  }
+  .input {
+    @apply w-full rounded-lg border border-white/10 bg-ink-950/80 px-3 py-2 text-sm text-slate-100
+      outline-none ring-accent/40 placeholder:text-slate-500 focus:ring-2;
+  }
+  .label {
+    @apply mb-1 block text-xs font-medium uppercase tracking-wide text-slate-400;
+  }
+}
