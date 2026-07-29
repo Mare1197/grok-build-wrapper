@@ -9,6 +9,16 @@ A local **web wrapper for [Grok Build](https://x.ai)** (the Grok CLI) with a fir
 
 This is intentionally separate from `~/grok-cli-ui` — developed on a git worktree so wrapper work stays isolated.
 
+## Screenshots
+
+### Imagine Studio
+
+![Imagine Studio — multi-provider image generation with tag palette](docs/screenshot-imagine.png)
+
+### Grok Build chat
+
+![Grok Build wrapper chat — headless CLI companion](docs/screenshot-build.png)
+
 ## What it is
 
 | Surface | Role |
