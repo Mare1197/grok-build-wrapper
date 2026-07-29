@@ -1,8 +1,9 @@
 # Grok Build Wrapper
 
-**Worktree:** `C:\Users\marko\worktrees\grok-build-wrapper`  
-**Branch:** `feature/wrapper-ui`  
-**Main repo:** `C:\Users\marko\repos\grok-build-wrapper`
+**GitHub:** https://github.com/Mare1197/grok-build-wrapper  
+
+**Local worktree:** `C:\Users\marko\worktrees\grok-build-wrapper` (`feature/wrapper-ui`)  
+**Local main checkout:** `C:\Users\marko\repos\grok-build-wrapper`
 
 A local **web wrapper for [Grok Build](https://x.ai)** (the Grok CLI) with a first-class **Imagine image studio**.
 
